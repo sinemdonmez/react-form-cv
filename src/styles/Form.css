@@ -1,0 +1,108 @@
+/* GENERAL LAYOUT */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* TITLE & SECTIONS */
+  .cv-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .cv-section {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.4rem;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* CARD CONTAINER */
+  form, .submitted-data {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* LABEL & INPUT STYLING */
+  form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  form input {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 0.5rem;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    background-color: #f9f9f9;        /* ✅ Lighter input */
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.2s;
+  }
+  
+  form input:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  /* BUTTON STYLING */
+  button {
+    padding: 0.6rem 1.25rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="button"] {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  
+  /* SUBMITTED DATA */
+  .submitted-data p {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
